@@ -1,0 +1,155 @@
+footer {
+  font-size: 1.25rem;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  font-weight: normal;
+  padding-inline: 8.33333vw;
+  border-top: 2px solid #efefef;
+}
+
+
+footer .footer-content {
+  padding-top: 8.33333vw;
+}
+
+.footer-content .logo {
+  width: 122px;
+}
+
+.footer-content .logo img {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+}
+
+
+.footer-content .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.footer-content .list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-content h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+
+.footer-content .row {
+  padding-bottom: 66.66667px;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+
+.footer-content .col {
+  margin-bottom: 1rem;
+}
+
+.footer-content .social {
+  padding: 0;
+}
+
+.footer-content .social-btn {
+  width: 2.5rem;
+  margin-right: 0.75rem;
+  height: 2.5rem;
+}
+
+
+.social-btn.facebook {
+  background-color: #3477F2;
+}
+
+.social-btn.twitter {
+  background-color: #1DA1F2;
+}
+
+.social-btn.youtube {
+  background-color: #FF001D;
+}
+
+.social-btn.instagram {
+  background-color: #F77737;
+}
+
+.footer-content .newsletter {
+  margin-top: 1rem;
+}
+
+.footer-content .newsletter input {
+  width: 100%;
+  margin: 0;
+  padding: 0.4em 0.75em;
+  background: transparent;
+  background-color: #eee;
+  border: 0;
+  user-select: none;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.footer-content .newsletter button {
+  font-weight: bold;
+  font-size: inherit;
+  color: #fff!important;
+  background: blue;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 0.35em 1.5em;
+}
+
+.footer-content .language-selector {
+  margin-top: 0.75rem;
+}
+
+.footer-content .language-selector select {
+  background: transparent;
+  background-color: #eee;
+  border: 0;
+  user-select: none;
+  height: 1.875rem;
+  padding: 0.35em 50px 0.35em 0.75em;
+  border-radius: 0;
+  cursor: pointer;
+  color: #000;
+}
+
+.footer-content .language-selector select + select {
+  margin-left: 0.2rem;
+}
+
+
+@media screen and (min-width: 64em) {
+  .footer-content .logo {
+    width: 188px;
+  } 
+}
+
+@media screen and (min-width: 100em) {
+  .footer-content .col {
+    margin-bottom: 0;
+  }
+  footer {
+    padding-inline: 133.33333px;
+  }
+
+  .footer-content .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+

@@ -1,0 +1,112 @@
+.header-container {
+  padding-inline: 2.5rem;
+  border-bottom: 2px solid #eee;
+  background-color: white;
+}
+
+.main-nav {
+  width: 100%;
+  height: 66px;
+}
+
+.links {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.links .try-for-free {
+  margin-left: auto;
+}
+
+.links .try-for-free a {
+  color: var(--dark-blue);
+}
+
+.links li {
+  padding-inline: 0.625rem;
+  margin-right: 0.625rem
+}
+
+.links a {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-decoration: none;
+  color: black;
+}
+
+.links .more a {
+  color: var(--tomato);
+}
+
+
+.links .plus {
+  display: inline-block;
+  position: relative;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.links .plus::before, .links .plus::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: var(--tomato);
+}
+
+.links .plus::before {
+  width: 0.75rem;
+  height: 0.125rem;
+}
+
+.links .plus::after {
+  width: 0.125rem;
+  height: 0.75rem;
+}
+
+.links .account a {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+.secondary { 
+  width: 100%;
+  padding: 1.25rem 2.5rem 1.25rem 2.5rem;
+  background-color: rgba(255,255,255,0.9);
+  position: sticky;
+  overflow: visible;
+  z-index: 10;
+  top: 0;
+}
+
+.secondary .links {
+  margin: 0;
+}
+
+.secondary li.active a {
+  color: var(--tomato);
+}
+
+.secondary a {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.secondary ul {
+  padding-left: 0;
+}
+
+.main-links {
+  display: none;
+}
+
+
+@media screen and (min-width: 1023px) {
+  .main-links {
+    display: flex;
+  }
+}
+ 
