@@ -1,0 +1,22 @@
+@import "./../../css/utils.css";
+@import "./palette.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+body {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+  background-color: #f3f3f3;
+  line-height: 1.5;
+  max-width: 100rem;
+  margin-inline: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.arrow::after {
+  margin-left: 0.25rem;
+  content: "\003E";
+}

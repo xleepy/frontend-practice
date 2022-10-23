@@ -1,0 +1,25 @@
+{
+  "name": "frontend-practice",
+  "version": "1.0.0",
+  "description": "Projects from [Frontend Practice](https://www.frontendpractice.com/)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xleepy/frontend-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xleepy/frontend-practice/issues"
+  },
+  "homepage": "https://github.com/xleepy/frontend-practice#readme"
+}
