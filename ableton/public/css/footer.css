@@ -9,7 +9,6 @@ footer {
   border-top: 2px solid #efefef;
 }
 
-
 footer .footer-content {
   padding-top: 8.33333vw;
 }
@@ -23,7 +22,6 @@ footer .footer-content {
   max-width: 100%;
   border: 0;
 }
-
 
 .footer-content .list {
   list-style: none;
@@ -47,7 +45,6 @@ footer .footer-content {
   margin: 0;
 }
 
-
 .footer-content .row {
   padding-bottom: 66.66667px;
   width: 100%;
@@ -68,21 +65,20 @@ footer .footer-content {
   height: 2.5rem;
 }
 
-
 .social-btn.facebook {
-  background-color: #3477F2;
+  background-color: #3477f2;
 }
 
 .social-btn.twitter {
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .social-btn.youtube {
-  background-color: #FF001D;
+  background-color: #ff001d;
 }
 
 .social-btn.instagram {
-  background-color: #F77737;
+  background-color: #f77737;
 }
 
 .footer-content .newsletter {
@@ -104,7 +100,7 @@ footer .footer-content {
 .footer-content .newsletter button {
   font-weight: bold;
   font-size: inherit;
-  color: #fff!important;
+  color: #fff !important;
   background: blue;
   border: 0;
   border-radius: 0;
@@ -132,11 +128,10 @@ footer .footer-content {
   margin-left: 0.2rem;
 }
 
-
 @media screen and (min-width: 64em) {
   .footer-content .logo {
     width: 188px;
-  } 
+  }
 }
 
 @media screen and (min-width: 100em) {
@@ -151,5 +146,3 @@ footer .footer-content {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-

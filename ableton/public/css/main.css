@@ -29,7 +29,8 @@ section:last-child {
   width: 66.66667vw;
 }
 
-.text a, .text p {
+.text a,
+.text p {
   font-size: 1.25rem;
   line-height: 1.5;
 }
@@ -64,13 +65,11 @@ section:last-child {
   z-index: 0;
 }
 
-
 .collage-products .background {
   height: 58.33333vw;
   left: 41.66667vw;
   right: 0;
 }
-
 
 .collage-products .product-1 {
   background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=667&ixjsv=1.1.3&w=667);
@@ -86,11 +85,9 @@ section:last-child {
   margin-left: 8.33333vw;
 }
 
-
 .lemonade-bg {
   background-color: var(--yellow);
 }
-
 
 .video {
   width: 66.66667vw;
@@ -100,7 +97,7 @@ section:last-child {
 }
 
 .video .caption {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   margin-top: 0.5em;
 }
@@ -135,7 +132,7 @@ section:last-child {
   background-size: 75px 75px;
   pointer-events: none;
   cursor: pointer;
-  content: '';
+  content: "";
 }
 
 .collage-people {
@@ -192,7 +189,6 @@ section:last-child {
   height: auto;
 }
 
-
 .collage-improving .background {
   background-color: var(--purple);
   width: 66.66667vw;
@@ -215,7 +211,6 @@ section:last-child {
   height: 41.66667vw;
   margin-left: 16.66667vw;
 }
-
 
 .job-teaser .preview {
   flex-basis: 100%;
@@ -243,18 +238,16 @@ section:last-child {
   margin-top: 1rem;
 }
 
-
-
 @media screen and (min-width: 80em) and (min-width: 100em) {
   .intro {
     margin-inline: 133.33333px;
   }
   .collage {
-    padding-bottom: 133.33333px;    
+    padding-bottom: 133.33333px;
     padding-top: 133.33333px;
   }
 
-  .collage-people .background { 
+  .collage-people .background {
     height: 1200px;
     width: 933.33333px;
   }
@@ -264,7 +257,7 @@ section:last-child {
     height: 400px;
     width: 533.33333px;
   }
-  
+
   .collage-products .product-1 {
     margin-left: 133.33333px;
     height: 666.66667px;
@@ -276,7 +269,6 @@ section:last-child {
     height: 933.33333px;
     width: 933.33333px;
   }
-
 
   .collage-improving .background {
     left: 266.66667px;
@@ -297,7 +289,7 @@ section:last-child {
   }
 
   .video {
-    width: 800px
+    width: 800px;
   }
 
   .text {
@@ -320,7 +312,7 @@ section:last-child {
     height: 666.66667px;
     width: 666.66667px;
   }
-  
+
   .media-large {
     margin-inline: 133.3333px;
   }
@@ -334,7 +326,7 @@ section:last-child {
   }
 
   .job-teaser .teaser-text {
-    flex:1; 
+    flex: 1;
     max-width: 666.66667px;
     margin-inline: 0;
     padding: 133.3333px;

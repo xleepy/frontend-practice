@@ -1,17 +1,17 @@
-@import './palette.css';
-@import './header.css';
-@import './main.css';
-@import './footer.css';
+@import "./palette.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
 
 body {
   margin: 0;
   font-size: 16px;
   color: #000;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   line-height: 1.5;
   max-width: 100rem;
   margin-inline: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -51,5 +51,5 @@ ul {
 }
 
 .arrow::after {
-  content: '\00a0›';
+  content: "\00a0›";
 }

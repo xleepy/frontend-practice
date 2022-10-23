@@ -4,17 +4,58 @@
   background-color: white;
 }
 
+.mobile-menu {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-left: 1rem;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
 .main-nav {
-  width: 100%;
   height: 66px;
 }
 
 .more-container {
   display: none;
+  padding: 1.68rem 0 3.4rem 0;
 }
 
-.more-container.visible {
-  display: block;
+.more-section h3 {
+  font-size: 1.875rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.more-section ul {
+  gap: 1rem;
+  padding: 0;
+}
+
+.more-section ul h4 {
+  margin: 0;
+}
+
+.more-section ul p {
+  margin: 0;
+}
+
+.more-section ul.grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.more-section a {
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.more-section + .more-section {
+  margin-top: 2.625rem;
 }
 
 .links {
@@ -32,7 +73,7 @@
 
 .links li {
   padding-inline: 0.625rem;
-  margin-right: 0.625rem
+  margin-right: 0.625rem;
 }
 
 .links a {
@@ -46,7 +87,6 @@
   color: var(--tomato);
 }
 
-
 .links .plus {
   display: inline-block;
   position: relative;
@@ -54,14 +94,16 @@
   height: 0.75rem;
 }
 
-.links .plus::before, .links .plus::after {
+.links .plus::before,
+.links .plus::after {
   content: "";
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: var(--tomato);
+  transition: 0.25s;
 }
 
 .links .plus::before {
@@ -74,20 +116,24 @@
   height: 0.75rem;
 }
 
+.opened .plus::after {
+  transform: rotate(90deg) translate(-6px, 1px);
+}
+
 .links .account a {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-
-.secondary { 
+.secondary {
   width: 100%;
   padding: 1.25rem 2.5rem 1.25rem 2.5rem;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: sticky;
   overflow: visible;
   z-index: 10;
   top: 0;
+  transition: transform 0.25s ease-in-out;
 }
 
 .secondary .links {
@@ -111,10 +157,21 @@
   display: none;
 }
 
+.hide {
+  transform: translateY(-100%);
+}
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1051px) {
+  .mobile-menu {
+    display: none;
+  }
+  .more-container.visible {
+    display: block;
+  }
+  .main-nav {
+    width: 100%;
+  }
   .main-links {
     display: flex;
   }
 }
- 
