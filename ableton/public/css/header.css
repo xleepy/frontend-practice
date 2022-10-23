@@ -9,6 +9,14 @@
   height: 66px;
 }
 
+.more-container {
+  display: none;
+}
+
+.more-container.visible {
+  display: block;
+}
+
 .links {
   width: 100%;
   margin-bottom: 1.25rem;
