@@ -3,17 +3,17 @@ let prevListItem;
 let prevId;
 const setVisibleElement = (id) => {
   if (prevListItem) {
-    prevListItem.classList.remove("selected");
+    prevListItem.classList.remove('selected');
   }
 
   if (prevElement) {
-    prevElement.classList.remove("visible");
+    prevElement.classList.remove('visible');
     document.body.classList.remove(prevId);
   }
 
   const listItem = document.querySelector(`[href='#${id}']`);
   if (listItem) {
-    listItem.classList.add("selected");
+    listItem.classList.add('selected');
     prevListItem = listItem;
   }
 
@@ -22,14 +22,14 @@ const setVisibleElement = (id) => {
     prevElement = element;
     prevId = id;
     document.body.classList.add(id);
-    element.classList.add("visible");
+    element.classList.add('visible');
   }
 };
 
-window.addEventListener("popstate", () => {
+window.addEventListener('popstate', () => {
   const { hash } = location;
-  const id = hash.replace("#", "");
+  const id = hash.replace('#', '');
   setVisibleElement(id);
 });
 
-setVisibleElement("issue6");
+setVisibleElement('issue6');

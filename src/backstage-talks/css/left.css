@@ -1,0 +1,17 @@
+.left {
+  display: none;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.logo {
+ width: 260px;
+ height: auto; 
+}
+
+
+@media (min-width: 1000px) {
+  .left {
+    display: flex;
+  }
+}

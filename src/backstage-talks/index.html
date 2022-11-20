@@ -11,11 +11,26 @@
       rel="stylesheet"
     />
   </head>
-  <body class="flex flex-col">
-    <header class="header">
-      <img class="logo" src="./assets/logo.png" />
-      <a href="mailto:info@backstagetalks.com">info@backstagetalks.com</a>
-    </header>
+  <body class="flex">
+    <div class="left flex-col">
+      <div>
+        <img class="logo" src="./assets/logo.png" />
+      </div>
+      <div class="description flex flex-col">
+        <p>
+          Backstage Talks is a magazine of casual, but in depth dialogues on
+          design and business. Our decisions shape and influence this complex
+          world-to have a chance to make the right ones, we need to talk.
+        </p>
+        <span class="copyright">
+          2022
+          <a href="https://www.milk.sk/">Published by studio Milk</a>
+        </span>
+        <a class="privacy" href="https://backstagetalks.com/privacy-policy.php">
+          Privacy policy
+        </a>
+      </div>
+    </div>
     <main class="flex-1 flex flex-col justify-center align-center">
       <div id="issue6" class="issue flex justify-center flex-col align-center">
         <img
@@ -27,11 +42,11 @@
           href="https://www.bruil.info/product/backstage-talks-6/"
           >BUY HERE</a
         >
-        <p>
+        <p class="alternative">
           or in
-          <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
-            >selected stores</a
-          >
+          <a class="buy-link" href="http://backstagetalks.com/stocklist.php">
+            selected stores
+          </a>
         </p>
       </div>
       <div id="issue5" class="issue flex justify-center flex-col align-center">
@@ -44,11 +59,11 @@
           href="https://www.bruil.info/product/backstage-talks-5/"
           >BUY HERE</a
         >
-        <p>
+        <p class="alternative">
           or in
-          <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
-            >selected stores</a
-          >
+          <a class="buy-link" href="http://backstagetalks.com/stocklist.php">
+            selected stores
+          </a>
         </p>
       </div>
       <div id="issue4" class="issue flex justify-center flex-col align-center">
@@ -61,7 +76,7 @@
           href="https://www.bruil.info/product/backstage-talks-4/"
           >BUY HERE</a
         >
-        <p>
+        <p class="alternative">
           or in
           <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
             >selected stores</a
@@ -78,7 +93,7 @@
           href="https://www.bruil.info/product/backstage-talks-3/"
           >BUY HERE</a
         >
-        <p>
+        <p class="alternative">
           or in
           <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
             >selected stores</a
@@ -95,7 +110,7 @@
           href="https://www.bruil.info/product/backstage-talks-3/"
           >BUY HERE</a
         >
-        <p>
+        <p class="alternative">
           or in
           <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
             >selected stores</a
@@ -107,7 +122,7 @@
           src="https://backstagetalks.com/img/backstagetalks_cover2016_n.png"
         />
         <p>Issue #1 is sold out.</p>
-        <p>
+        <p class="alternative">
           If you are lucky, you may get the last pieces in
           <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
             >selected stores</a
@@ -115,21 +130,8 @@
         </p>
       </div>
     </main>
-    <footer>
-      <div class="description flex flex-col">
-        <p>
-          Backstage Talks is a magazine of casual, but in depth dialogues on
-          design and business. Our decisions shape and influence this complex
-          world-to have a chance to make the right ones, we need to talk.
-        </p>
-        <span class="copyright">
-          2022
-          <a href="https://www.milk.sk/">Published by studio Milk</a>
-        </span>
-        <a class="privacy" href="https://backstagetalks.com/privacy-policy.php">
-          Privacy policy
-        </a>
-      </div>
+    <div class="right flex flex-col">
+      <a href="mailto:info@backstagetalks.com">info@backstagetalks.com</a>
       <div class="flex">
         <ul class="issues">
           <li><a href="#issue6">Issue #6</a></li>
@@ -140,7 +142,7 @@
           <li><a href="#issue1">Issue #1</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>

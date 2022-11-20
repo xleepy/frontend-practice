@@ -1,7 +1,7 @@
 @import "./../../css/utils.css";
-@import './header.css';
+@import './right.css';
 @import './main.css';
-@import './footer.css';
+@import './left.css';
 
 body {
   padding: 20px 15px;

@@ -1,5 +1,9 @@
 main {
-  overflow: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top:0;
 }
 
 .issue {
@@ -7,7 +11,8 @@ main {
 }
 
 .issue img {
-  width: 420px;
+  height: auto;
+  max-width: 420px;
 }
 
 .issue p, .issue a {
@@ -22,4 +27,14 @@ main {
 
 .visible {
   display: flex;
+}
+
+.alternative {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.alternative a {
+  font-size: 15px;
+  line-height: 22px;
 }
