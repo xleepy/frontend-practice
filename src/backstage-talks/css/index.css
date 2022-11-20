@@ -1,0 +1,52 @@
+@import "./../../css/utils.css";
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+
+body {
+  padding: 20px 15px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background-color: var(--background-color);
+  transition: all 700ms ease 0s
+}
+
+p, a {
+  margin: 0;
+  color: #251d20;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.issue6 {
+  --background-color: white;
+  --buy-link-color: #e568ac;
+}
+
+.issue5 {
+  --background-color: #00c1b5;
+  --buy-link-color: white;
+}
+
+.issue4 {
+  --background-color: #ff6519;
+}
+
+.issue3 {
+  --background-color: #ffbe00;
+}
+
+.issue2 {
+  --background-color: #1d3fbb;
+}
+
+.issue1 {
+  --background-color:#E30512;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}

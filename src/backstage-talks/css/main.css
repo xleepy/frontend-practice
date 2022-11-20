@@ -16,7 +16,7 @@ main {
 
 .buy-link {
   text-decoration: none;
-  color: #e568ac
+  color: var(--buy-link-color, white)
 }
 
 
