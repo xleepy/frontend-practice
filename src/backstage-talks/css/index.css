@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   background-color: var(--background-color);
-  transition: all 700ms ease 0s
+  transition: background-color 700ms ease 0s
 }
 
 p, a {
@@ -49,4 +49,13 @@ p, a {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+  z-index: 2;
 }
