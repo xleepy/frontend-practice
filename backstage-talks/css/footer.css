@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  width: 320px;
+}
+
+.issues {
+  margin-top: auto;
+}
+
+.issues li a {
+  color: #251d20;
+  text-decoration: underline;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.copyright a {
+  font-size: 12px;
+}
+
+.privacy {
+  margin-top: 1rem;
+}

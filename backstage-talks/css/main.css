@@ -1,0 +1,25 @@
+main {
+  overflow: auto;
+}
+
+.issue {
+  display: none;
+}
+
+.issue img {
+  width: 420px;
+}
+
+.issue p, .issue a {
+  margin-bottom: 1rem;
+}
+
+.buy-link {
+  text-decoration: none;
+  color: #e568ac
+}
+
+
+.visible {
+  display: flex;
+}

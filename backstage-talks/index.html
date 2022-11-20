@@ -11,9 +11,73 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header>
-      <img src="./assets/logo.png" />
+  <body class="flex flex-col">
+    <header class="header">
+      <img class="logo" src="./assets/logo.png" />
+      <a href="mailto:info@backstagetalks.com">info@backstagetalks.com</a>
     </header>
+    <main class="flex-1 flex flex-col justify-center align-center">
+      <div id="issue6" class="issue flex justify-center flex-col align-center">
+        <img
+          src="https://backstagetalks.com/img/backstagetalks_cover_issue_6.png"
+        />
+        <p>Issue #6</p>
+        <a
+          class="buy-link"
+          href="https://www.bruil.info/product/backstage-talks-6/"
+          >BUY HERE</a
+        >
+        <p>
+          or in
+          <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
+            >selected stores</a
+          >
+        </p>
+      </div>
+      <div id="issue5" class="issue flex justify-center flex-col align-center">
+        <img
+          src="https://backstagetalks.com/img/backstagetalks_cover_issue_5.png"
+        />
+        <p>Issue #6</p>
+        <a
+          class="buy-link"
+          href="https://www.bruil.info/product/backstage-talks-5/"
+          >BUY HERE</a
+        >
+        <p>
+          or in
+          <a class="buy-link" href="http://backstagetalks.com/stocklist.php"
+            >selected stores</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="description flex flex-col">
+        <p>
+          Backstage Talks is a magazine of casual, but in depth dialogues on
+          design and business. Our decisions shape and influence this complex
+          world-to have a chance to make the right ones, we need to talk.
+        </p>
+        <span class="copyright">
+          2022
+          <a href="https://www.milk.sk/">Published by studio Milk</a>
+        </span>
+        <a class="privacy" href="https://backstagetalks.com/privacy-policy.php">
+          Privacy policy
+        </a>
+      </div>
+      <div class="flex">
+        <ul class="issues">
+          <li><a href="#issue6">Issue #6</a></li>
+          <li><a href="#issue5">Issue #5</a></li>
+          <li><a href="#issue4">Issue #4</a></li>
+          <li><a href="#issue3">Issue #3</a></li>
+          <li><a href="#issue2">Issue #2</a></li>
+          <li><a href="#issue1">Issue #1</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
