@@ -1,5 +1,5 @@
 main {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
@@ -12,6 +12,7 @@ main {
 
 .issue img {
   height: auto;
+  width: 100%;
   max-width: 420px;
 }
 
@@ -37,4 +38,10 @@ main {
 .alternative a {
   font-size: 15px;
   line-height: 22px;
+}
+
+@media (min-width: 768px) {
+  main {
+    position: absolute;
+  }
 }

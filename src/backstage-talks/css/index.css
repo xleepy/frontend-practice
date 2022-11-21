@@ -9,7 +9,8 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   background-color: var(--background-color);
-  transition: background-color 700ms ease 0s
+  transition: background-color 700ms ease 0s;
+  flex-direction: column;
 }
 
 p, a {
@@ -58,4 +59,11 @@ a {
 .relative {
   position: relative;
   z-index: 2;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    flex-direction: row;
+  }
 }
