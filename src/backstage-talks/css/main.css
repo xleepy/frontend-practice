@@ -33,6 +33,7 @@ main {
 .alternative {
   font-size: 15px;
   line-height: 22px;
+  text-align: center;
 }
 
 .alternative a {
