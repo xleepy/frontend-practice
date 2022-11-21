@@ -1,6 +1,7 @@
 let prevElement;
 let prevListItem;
 let prevId;
+
 const setVisibleElement = (id) => {
   if (prevListItem) {
     prevListItem.classList.remove('selected');

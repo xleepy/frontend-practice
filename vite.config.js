@@ -3,8 +3,11 @@ import { resolve } from 'path';
 
 export default defineConfig({
   root: 'src',
+  appType: 'custom',
+  assetsInclude: ['**/*.js'],
   build: {
-    outDir: '../dist',
+    outDir: '../public',
+    assetsDir: './src',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src', 'index.html'),
