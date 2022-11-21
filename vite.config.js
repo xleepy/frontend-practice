@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
+console.log(process.env.VITE_CI);
+
+const basePath = process.env.VITE_CI ? '/frontend-practice/' : '/';
+
 export default defineConfig({
   root: 'src',
-  appType: 'custom',
-  assetsInclude: ['**/*.js'],
+  appType: 'mpa',
+  base: basePath,
   build: {
     outDir: '../public',
     assetsDir: './src',
