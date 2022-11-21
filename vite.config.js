@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
-console.log(process.env.VITE_CI);
-
-const basePath = process.env.VITE_CI ? '/frontend-practice/' : '/';
+const basePath = process.env.VITE_CI === 'true' ? '/frontend-practice/' : '/';
 
 export default defineConfig({
   root: 'src',
